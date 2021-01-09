@@ -89,7 +89,7 @@ console.log('myPi:', myPi);
 var myRound = Math.round(89.279);
 console.log('myRound:', myRound);
 // случайное число между 0..10 → myRandom
-var myRandom = Math.random();
+var myRandom = Math.random() * 10;
 console.log('myRandom:', myRandom);
 // 3 в 5 степени → myPow
 var myPow = Math.pow(3 , 5);
